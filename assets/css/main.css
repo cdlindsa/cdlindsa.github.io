@@ -12,12 +12,34 @@
 	.textWrap_right {
 		float:right;
 		margin: 30px;
+		max-width: 40%;
+	}
+	@media screen and (max-width: 480px) {
+		.textWrap_right {
+			float: none;
+			align-items: center;
+			margin-left: 10%;
+			margin-right: 10%;			
+			max-width: 80%;
+		}
 	}
 
 	.textWrap_left {
 		float:left;
 		margin: 30px;
+		max-width: 40%;
 	}
+	@media screen and (max-width: 480px) {
+		.textWrap_left {
+			float: none;
+			align-items: center;
+			margin-left: 10%;
+			margin-right: 10%;
+			max-width: 80%;
+		}
+	}
+
+
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -1888,7 +1910,6 @@
 			.box .content {
 				padding: 2rem;
 			}
-
 		}
 
 	.box {
@@ -3568,15 +3589,21 @@
 			min-height: 50vh;
 			height: 50vh !important;
 		}
-
-		.banner.quarter {
-			padding: 0;
-			min-height: 25vh;
-			height: 25vh !important;
+		
+		@media screen and (max-width: 480px) {
+			.banner.half h2{
+				font-size: 6.5vh;
+			}
 		}
 
-		.banner.quarter h2{
-			font-size: 4rem;
+		.banner.thirty {
+			padding: 0;
+			min-height: 30vh;
+			height: 30vh !important;
+		}
+
+		.banner.thirty h2{
+			font-size: 6vh;
 		}
 
 		.banner:after {
@@ -3792,7 +3819,7 @@
 			.banner > article h2 {
 				font-size: 0;
 			}
-			.banner.quarter > article h2{
+			.banner.thirty > article h2{
 				font-size: auto;
 				padding: 3rem 0 3rem 0;
 			}
