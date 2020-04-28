@@ -1,5 +1,5 @@
 # Personal Website
-A Personal Website containing my resume, past publications, and future research.
+<a href="https://cdlindsa.github.io/">A Personal Website</a> containing my resume, past publications, and future research.
 <br>
 Code adapted by Cameron Lindsay April 2020 from:
 Hielo by TEMPLATED
