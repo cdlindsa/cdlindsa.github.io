@@ -2150,7 +2150,7 @@
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: 'Font Awesome\ 5 Free';
+			font-family: 'Font Awesome 5 Free';
 			font-style: normal;
 			font-weight: 900;
 			text-transform: none !important;
@@ -2214,7 +2214,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: 'Font Awesome\ 5 Free';
+				font-family: 'Font Awesome 5 Free';
 				font-style: normal;
 				font-weight: 900;
 				text-transform: none !important;
@@ -2349,7 +2349,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: 'Font Awesome\ 5 Free';
+			font-family: 'Font Awesome 5 Free';
 			font-style: normal;
 			font-weight: 900;
 			text-transform: none !important;
@@ -3318,7 +3318,7 @@
 					content: "";
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: 'Font Awesome\ 5 Free';
+					font-family: 'Font Awesome 5 Free';
 					font-style: normal;
 					font-weight: 900;
 					text-transform: none !important;
@@ -3499,7 +3499,7 @@
 			#menu .close:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: 'Font Awesome\ 5 Free';
+				font-family: 'Font Awesome 5 Free';
 				font-style: normal;
 				font-weight: 900;
 				text-transform: none !important;
